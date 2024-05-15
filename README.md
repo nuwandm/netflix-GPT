@@ -9,9 +9,9 @@
 - Form Validation
 - useRef Hook
 - firebase setup
-- deploying app to firebase
-- create signUp user in firebase
-
+- Deployed app to firebase
+- Implemented SignIn / Sign Up API using firebase
+- Created the Store
 
 
 # Features
