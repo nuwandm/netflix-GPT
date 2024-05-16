@@ -11,7 +11,10 @@
 - firebase setup
 - Deployed app to firebase
 - Implemented SignIn / Sign Up API using firebase
-- Created the Store
+- Created the Store with userSlice
+- Implemented SignOUt
+- Updated profile
+- Fetch from TMDB Movies
 
 
 # Features

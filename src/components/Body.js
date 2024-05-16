@@ -4,7 +4,6 @@ import Browse from "./Browse";
 import {
 	RouterProvider,
 	createBrowserRouter,
-	useNavigate,
 } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../utils/firebase";
