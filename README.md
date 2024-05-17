@@ -19,6 +19,9 @@
 - BugFix: if the user is not logged in Redirect / browse to Login pag and vice- reverse
 - Unsubscribed to the onAuthStateChanged Callback
 - Created constants for URLs
+- Registered for TMDB APIs & create an app & get access token
+- Get Data from TMDB API
+- Added movies to redux store
 
 
 
