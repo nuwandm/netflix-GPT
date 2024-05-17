@@ -20,7 +20,7 @@ const Header = () => {
 
 	// thanks firebase, we can dispatch all user action in one place  by using onAuthStateChanged API
 	useEffect(() => {
-		onAuthStateChanged(auth, (user) => {
+		const unsubscribe = onAuthStateChanged(auth, (user) => {
 			if (user) {
 				// User is signed in, dispatch an action to store
 				const { uid, email, displayName, photoURL } = user;
@@ -39,6 +39,8 @@ const Header = () => {
 				navigate("/");
 			}
 		});
+		// Unsubscribe when component unmounts (this function will be called when component unmounts)
+		return () => unsubscribe();
 	}, []);
 
 	return (
