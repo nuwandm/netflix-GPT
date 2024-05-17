@@ -7,8 +7,8 @@ const appStore = configureStore({
 	},
 });
 
-appStore.subscribe(() => {
-	console.log("Store updated:", appStore.getState());
-});
+// appStore.subscribe(() => {
+// 	console.log("Store updated:", appStore.getState());
+// });
 
 export default appStore;
