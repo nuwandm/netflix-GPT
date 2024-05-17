@@ -18,6 +18,7 @@
 - BugFix: Sing up user displayName and profile picture update
 - BugFix: if the user is not logged in Redirect / browse to Login pag and vice- reverse
 - Unsubscribed to the onAuthStateChanged Callback
+- Created constants for URLs
 
 
 
