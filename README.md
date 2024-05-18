@@ -22,6 +22,13 @@
 - Registered for TMDB APIs & create an app & get access token
 - Get Data from TMDB API
 - Added movies to redux store
+- Custom hook added for now playing movies
+- Created moviesSlice
+- update store with movie data
+- Playing for mainContainer & secondary container
+- Fetch Data for trailer
+- Embedded the Youtube video and make it autoplay and mute
+- Added Tailwind to Main container
 
 
 
