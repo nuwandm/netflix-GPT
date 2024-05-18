@@ -11,7 +11,6 @@ const VideoBackground = (movieId) => {
 		<div>
 			<iframe
 				className="w-screen aspect-video"
-
 				// once we create uncomment this for autoPlay the banner
 				// src={
 				// 	"https://www.youtube.com/embed/" + trailerId + "?&autoplay=1&mute=1"

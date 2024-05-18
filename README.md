@@ -29,6 +29,9 @@
 - Fetch Data for trailer
 - Embedded the Youtube video and make it autoplay and mute
 - Added Tailwind to Main container
+- Built secondary component / movie Card
+- TMDB image url
+- usePopularMovies custom hook
 
 
 
