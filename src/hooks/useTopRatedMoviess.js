@@ -4,7 +4,6 @@ import { addTopRatedMovies } from "../utils/moviesSlice";
 import { useEffect } from "react";
 
 const useTopRatedMovies = () => {
-	console.log("HI");
 	const dispatch = useDispatch();
 
 	const getPopularMovies = async () => {
@@ -14,8 +13,9 @@ const useTopRatedMovies = () => {
 		);
 
 		const json = await data.json();
-		console.log(json);
+
 		dispatch(addTopRatedMovies(json.results));
+
 		return json.results;
 	};
 
