@@ -32,7 +32,11 @@
 - Built secondary component / movie Card
 - TMDB image url
 - usePopularMovies custom hook
-- GPT Search feature
+- GPT Search page
+- GPT Search Bar
+- Multi-language Feature
+- Integrate GPT API (get openAI key..)
+
 
 
 
